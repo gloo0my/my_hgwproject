@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "MyCustomFont";
+    src: url("fonts/Angst-BoldSerif.otf") format("opentype");
+    font-style: normal;
+}
+
+body {
+    font-family: "MyCustomFont", Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f5f0;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+.menu {
+    background-color: #141414;
+    padding: 25px 20px;
+    text-align: center;
+    border-bottom: 3px solid #8b2635;
+}
+
+.menu a {
+    color: #f8f5f0;
+    text-decoration: none;
+    margin: 0 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    color: #c0394b;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(20, 20, 20, 0.08);
+}
+
+h1 {
+    color: #141414;
+    border-bottom: 2px solid #8b2635;
+    padding-bottom: 12px;
+    font-size: 32px;
+}
+
+h2 {
+    color: #8b2635;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.about-card {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background-color: #faf8f5;
+    border: 2px solid #8b2635;
+    border-radius: 16px;
+    padding: 25px;
+    margin-top: 15px;
+    box-shadow: 0 4px 15px rgba(139, 38, 53, 0.08);
+}
+
+.profile-img {
+    width: 200px;
+    height: auto;
+    border-radius: 14px;
+    border: 3px solid #8b2635;
+    box-shadow: 0 6px 15px rgba(20, 20, 20, 0.15);
+    margin: 0;
+    display: block;
+}
+
+.about-text p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.banner-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+}
+
+ul,
+ol {
+    margin-left: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th,
+td {
+    border: 1px solid #e8e2d9;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #141414;
+    color: #ffffff;
+}
+
+audio,
+video {
+    margin-top: 15px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+}
